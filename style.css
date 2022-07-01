@@ -33,6 +33,10 @@ font-family: 'Trispace', sans-serif;
     width: 100vw;
 }
 
+.logo:hover {
+    rotate: 180deg;
+}
+
 .section {
     margin: 0 180px;
     overflow: hidden;
@@ -514,7 +518,7 @@ font-family: 'Trispace', sans-serif;
     background-position: bottom right;
     background-repeat: no-repeat;
     flex-direction: column;
-    width: 100vw;
+    width: 98.85vw;
 }
 
 .gennext {
@@ -607,10 +611,11 @@ font-family: 'Trispace', sans-serif;
     font-size: 18px;
     float: inline-start;
     left: 635px;
+    width: 50%;
+    overflow: hidden;
 }
 
 footer nav {
-
     position: relative;
     margin-bottom: -64px;
     background-color: #d4ffe8;

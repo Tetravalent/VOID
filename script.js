@@ -1,12 +1,12 @@
-const logo = document.querySelector(".logo");
+// const logo = document.querySelector(".logo");
 
-logo.addEventListener("mouseover", () => {
-    logo.style.rotate = '180deg';
-})
+// logo.addEventListener("mouseover", () => {
+//     logo.style.rotate = '180deg';
+// })
 
-logo.addEventListener("mouseout ", () => {
-    logo.style.rotate = "0deg";
-})
+// logo.addEventListener("mouseout ", () => {
+//     logo.style.rotate = '60deg';
+// })
 
 
 
@@ -113,7 +113,7 @@ master.addEventListener('click', () => {
 
     }
 })
-    
+
 
 master.addEventListener('click', () => {
     if (song.paused || song.currentTime <= 0) {
