@@ -549,6 +549,7 @@ font-family: 'Trispace', sans-serif;
     left: -55px;
     color: #464b4f;
     cursor: pointer;
+    /* z-index: 1; */
 }
 
 .medium {
@@ -557,6 +558,8 @@ font-family: 'Trispace', sans-serif;
     left: -87px;
     color: #464b4f;
     cursor: pointer;
+    /* z-index: 1; */
+
 }
 
 .list {
