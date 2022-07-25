@@ -33,13 +33,21 @@ font-family: 'Trispace', sans-serif;
     width: 100vw;
 }
 
-.logo:hover {
+/* .logo:hover {
     rotate: 180deg;
-}
+} */
 
 .section {
     margin: 0 180px;
     overflow: hidden;
+}
+
+
+.section1 {
+    margin: 0 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .unregulate {
@@ -101,6 +109,14 @@ font-family: 'Trispace', sans-serif;
     cursor: pointer;
 }
 
+.removestyle,
+:hover,
+:focus,
+:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .flexiten {
     flex: .41;
     display: flex;
@@ -113,6 +129,18 @@ font-family: 'Trispace', sans-serif;
     margin-left: 162px;
 }
 
+.left {
+    flex: .41;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    padding: 0 25px;
+    border-width: 3px;
+    border-color: #8bed4f;
+    border-style: solid;
+    margin-left: 490px;
+}
+
 
 .flexend {
     flex: 0.48;
@@ -120,6 +148,16 @@ font-family: 'Trispace', sans-serif;
     align-items: center;
     justify-content: center;
 }
+
+
+.flexendd {
+    flex: 0.48;
+    display: flex;
+    /* align-items: right; */
+    justify-content: right;
+}
+
+
 
 .unleash {
     color: #8bed4f;
@@ -130,6 +168,57 @@ font-family: 'Trispace', sans-serif;
     margin-top: 140px;
     font-family: 'Cinzel', serif;
 }
+
+.torights {
+    float: right;
+    color: #464b4f;
+    font-size: 35px;
+    font-weight: 700;
+    /* line-height: 180px; */
+    /* text-shadow: 0 5px 20px rgb(25 0 96 / 50%); */
+    margin-top: 252px;
+    line-height: 65px;
+    left: 56px;
+    font-family: 'Cinzel', serif;
+    position: relative;
+    text-shadow: 0 2px 30px rgb(25 0 96 / 50%);
+
+}
+
+
+.unleashh {
+    float: left;
+    color: #8bed4f;
+    font-size: 100px;
+    font-weight: 900;
+    /* line-height: 100px; */
+    text-shadow: 0 5px 5px rgb(25 0 96 / 50%);
+    margin-top: 220px;
+    font-family: 'Cinzel', serif;
+    /* left: 44px; */
+    position: relative;
+    /* float: left; */
+    /* clip-path: polygon(77.83% 0.56%, 78.14% 45.58%, 99.48% 46.70%, 100.13% 99.45%, 1px 100.56%, -0.13% 0.88%);
+    shape-outside: polygon(78.1% 43.14%, 78.55% 69.72%, 101.69% 70.49%, 101.92% 99.11%, 1px 100.56%, 0.36% 42.88%); */
+}
+
+.divider {
+    margin-top: 239px;
+    position: relative;
+    left: 25px;
+    float: left;
+
+    /* margin: 0 48px; */
+    border-right: 4px solid #151515;
+    border-radius: 3px;
+    height: 215px;
+}
+
+
+/* .torights {
+    float: right;
+} */
+
 
 .unleash span {
     color: #56f09f;
@@ -223,6 +312,10 @@ font-family: 'Trispace', sans-serif;
     text-shadow: 0 5px 20px rgb(25 0 96 / 50%);
 }
 
+.freedom1{
+    position: relative;
+    left: 235px;
+}
 
 .about {
     color: #464b4f;

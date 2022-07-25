@@ -83,7 +83,25 @@ Array.from(document.getElementsByClassName('songitemplay')).forEach((element) =>
     })
 })
 
+let startlisten = document.querySelector('.startlisten')
+let psytrancelist = document.querySelector('.psytrancelist')
+let voidlisten = document.querySelector('.voidlisten')
+let discover = document.querySelector('.Discover')
+let explore = document.querySelector('.Explore')
+let highest = document.querySelector('.highest')
 
+startlisten.addEventListener('click', () => {
+    psytrancelist.scrollIntoView()
+})
+
+
+discover.addEventListener('click', () => {
+    voidlisten.scrollIntoView()
+})
+
+explore.addEventListener('click', () => {
+    highest.scrollIntoView()
+})
 
 
 
