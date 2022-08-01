@@ -22,7 +22,7 @@ font-family: 'Trispace', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Kanit:wght@200&family=Play&family=Quicksand:wght@300&family=Raleway:wght@200&family=Space+Grotesk:wght@300&family=Trispace:wght@200&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -66,7 +66,7 @@ font-family: 'Trispace', sans-serif;
 }
 
 .torotate {
-    transform:rotate(180deg);
+    transform: rotate(180deg);
     z-index: -1;
     margin-top: -45px;
     overflow-x: hidden;
@@ -199,11 +199,10 @@ font-family: 'Trispace', sans-serif;
 }
 
 .removestyle,
-:hover,
 :focus,
 :active {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 .flexiten {
@@ -269,7 +268,7 @@ font-family: 'Trispace', sans-serif;
     /* text-shadow: 0 5px 20px rgb(25 0 96 / 50%); */
     margin-top: 252px;
     line-height: 65px;
-    left:36px;
+    left: 36px;
     font-family: 'Cinzel', serif;
     position: relative;
     text-shadow: 0 3px 30px rgb(25 0 96 / 50%);
@@ -633,6 +632,18 @@ font-family: 'Trispace', sans-serif;
     margin: 25px 175px 88px 175px;
     text-align: center;
     font-family: Gilroy !important;
+
+
+    text-decoration: none;
+
+}
+
+.signupdetailss:hover,
+:focus,
+:active {
+    text-decoration: none;
+    color: inherit;
+
 }
 
 .listen:hover {
@@ -809,6 +820,101 @@ footer nav {
     position: relative;
     margin-bottom: -64px;
     background-color: #d4ffe8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    /* line-height: 8vh; */
+    color: white;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.signupsignup {
+    transition: all 0.75s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    height: 28px;
+    background: linear-gradient(267.49deg, rgba(100, 206, 19, 0.4), rgba(91, 35, 225, .25));
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 40px;
+    font-family: Gilroy !important;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    cursor: pointer;
+
+}
+
+/* .authorized{
+    transition: all 0.75s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    height: 28px;
+    background: linear-gradient(267.49deg, rgba(100, 206, 19, 0.4), rgba(91, 35, 225, .25));
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 40px;
+    font-family: Gilroy !important;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    cursor: pointer;
+} */
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20vw;
+    /* height: 15px; */
+    border-radius: 0px;
+    /* padding: 25px; */
+
+}
+
+.input input {
+    padding: 6px 20px;
+    border-radius: 4px;
+}
+
+#date {
+    padding-left: 15px;
+
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 204px;
+    height: 1px;
+    margin: 5px;
+    background-color: #8bed4f;
+}
+
+.pre {
+    font-size: 12px;
 }
 
 @keyframes colorwave {
