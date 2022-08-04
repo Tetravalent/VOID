@@ -22,7 +22,7 @@ font-family: 'Trispace', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Kanit:wght@200&family=Play&family=Quicksand:wght@300&family=Raleway:wght@200&family=Space+Grotesk:wght@300&family=Trispace:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -157,6 +157,7 @@ font-family: 'Trispace', sans-serif;
     z-index: 4;
     font-family: 'Inconsolata', monospace;
     overflow: hidden;
+    top: 0px;
 }
 
 .listitems li {
@@ -708,13 +709,13 @@ font-family: 'Trispace', sans-serif;
 }
 
 .signupdetail {
-    margin-top: 140px;
+    margin: 140px 0px;
     background-image: url(streetsinger.jpg);
     display: flex;
     background-position: bottom right;
     background-repeat: no-repeat;
     flex-direction: column;
-    width: 98.87vw;
+    width: 99.97vw;
 }
 
 .gennext {
@@ -857,6 +858,8 @@ footer nav {
 
 }
 
+
+
 /* .authorized{
     transition: all 0.75s ease-in-out;
     display: inline-flex;
@@ -917,8 +920,98 @@ footer nav {
     font-size: 12px;
 }
 
-@keyframes colorwave {
-    100% {
-        transform: translateX(-500px);
-    }
+
+
+.token {
+    color: #464b4f;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 275px;
+    margin-bottom: 200px;
+    letter-spacing: 20px;
+    /* top: 300px;
+    position: relative; */
+    font-family: 'Inconsolata', monospace;
+    /* font-stretch: wider; */
 }
+
+.intro {
+    text-align: center;
+    color: #464b4f;
+    font-size: 50px;
+    font-weight: 800;
+    /* line-height: 34px; */
+    text-align: center;
+    text-shadow: 2px 5px 200px rgb(25 0 96 / 50%);
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 200px
+}
+
+
+.aboutin {
+    color: #56f09f;
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 25px;
+
+}
+
+
+.aboutdetails {
+    color: #464b4f;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px 260px;
+    text-shadow: 0 5px 55px rgb(25 0 96 / 50%);
+    font-family: 'Inconsolata', monospace;
+    line-height: 54px;
+
+}
+
+
+.aboutdetails div {
+    margin-top: 60px;
+}
+
+.aboutdetails button {
+    transition: all 0.75s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    height: 38px;
+    background: linear-gradient(300deg, rgba(100, 206, 19, 0.4), rgba(91, 35, 225, .25));
+    border: 2px solid #151515;
+    border-radius: 5px;
+    color: #303030;
+    padding: 16px 40px;
+    font-family: Gilroy !important;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    /* line-height: 26px; */
+    text-align: center;
+    /* -webkit-transform: scaleX(1); */
+    /* transform: scaleX(1); */
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.uppercure {
+    margin-bottom: -140px
+}
+
+.imageaudio{
+    position: relative;
+    text-align: center;
+    
+}
+
+/* @keyframes colorwave {
+    100% {
+        transform translateX(-500px);
+    }
+} */
