@@ -1004,11 +1004,19 @@ footer nav {
     margin-bottom: -140px
 }
 
-.imageaudio{
+.imageaudio {
     position: relative;
     text-align: center;
-    
+
 }
+
+/* .naveft:hover,
+:focus,
+:active {
+    text-decoration: none;
+    color: inherit;
+} */
+
 
 /* @keyframes colorwave {
     100% {
