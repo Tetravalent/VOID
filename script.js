@@ -83,17 +83,19 @@ Array.from(document.getElementsByClassName('songitemplay')).forEach((element) =>
     })
 })
 
+
+
 let startlisten = document.querySelector('.startlisten')
 let psytrancelist = document.querySelector('.psytrancelist')
 let voidlisten = document.querySelector('.voidlisten')
 let discover = document.querySelector('.Discover')
 let explore = document.querySelector('.Explore')
 let highest = document.querySelector('.highest')
+let listen= document.querySelector(".listen")
 
 startlisten.addEventListener('click', () => {
     psytrancelist.scrollIntoView()
 })
-
 
 discover.addEventListener('click', () => {
     voidlisten.scrollIntoView()
@@ -103,8 +105,23 @@ explore.addEventListener('click', () => {
     highest.scrollIntoView()
 })
 
+listen.addEventListener("click",()=>{
+    psytrancelist.scrollIntoView()
+} )
 
 
+
+document.querySelector(".signupsignup").addEventListener("click",onSignIn())
+
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  }
+
+  
 
 
 

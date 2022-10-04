@@ -11,7 +11,7 @@
 #8bed4f
 #1d552a */
 
-/* font-family: 'Inconsolata', monospace;
+/*  
 font-family: 'Play', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
@@ -183,7 +183,7 @@ font-family: 'Trispace', sans-serif;
     display: inline-flex;
     align-items: center;
     height: 28px;
-    background: linear-gradient(267.49deg, rgba(100, 206, 19, 0.4), rgba(91, 35, 225, .25));
+    background: linear-gradient(1.49deg, rgba(100, 206, 19, 0.4), rgba(91, 35, 225, .25));
     border: 2px solid white;
     border-radius: 5px;
     color: white;
